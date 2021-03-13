@@ -1,14 +1,12 @@
-* {
+<!--universal-- > * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
-body {
+<!--element-- > body {
   background-color: #d9dcd6;
 }
-
-.header {
+<!--class-- > .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -85,8 +83,6 @@ p {
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
-  display: flex;
-  align-items: flex-end;
 }
 
 .benefit-lead {
